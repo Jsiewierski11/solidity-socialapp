@@ -1,3 +1,4 @@
+// This is a simple test script to simulate the wave functionality locally.
 const main = async () => {
     const waveContractFactory = await hre.ethers.getContractFactory('WavePortal');
     const waveContract = await waveContractFactory.deploy({
